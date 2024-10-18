@@ -6,7 +6,7 @@
 	"service": "hadoopDev",
 	"shutdownAction": "stopCompose",
 	"workspaceFolder": "/root/hadoop-book/",
-	"postCreateCommand": "sudo app-get update -y && sudo apt-get upgrade -y && sudo apt-get install git wget maven vim tmux -y",
+	"postCreateCommand": "",
 
 	"customizations" : {
 		"jetbrains" : {

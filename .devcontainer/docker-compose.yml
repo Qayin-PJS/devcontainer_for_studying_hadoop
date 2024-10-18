@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   hadoopDev:
-    image: hadoop_java8
+    image: v37794/hadoop_java8:latest
     container_name: hadoopDev
     restart: always
     tty: true
