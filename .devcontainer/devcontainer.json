@@ -5,8 +5,8 @@
 	],
 	"service": "hadoopDev",
 	"shutdownAction": "stopCompose",
-	"workspaceFolder": "/root/hadoop-book/",
-	"postCreateCommand": "",
+	"workspaceFolder": "/root/devcontainer_for_studying_hadoop/",
+	"postCreateCommand": "apt-get install git -y",
 
 	"customizations" : {
 		"jetbrains" : {
